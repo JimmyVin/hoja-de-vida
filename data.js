@@ -7,7 +7,7 @@ const cvData = {
         {
             title: "Desarrollador Web, Móvil",
             company: "Sistemas Ágiles",
-            years: "2020 - 2023",
+            years: "2021 - 2024",
             description: "Creación de sitios web y móviles dinámicos y responsivos, trabajando con clientes de todo el mundo."
         },
         {
@@ -32,18 +32,24 @@ const cvData = {
     
     education: [
         {
-            degree: "Ingeniería en Sistemas",
-            institution: "Universidad de Quito",
-            years: "2012 - 2016"
+            degree: "Técnico Superior en Desarrollo de Software",
+            institution: "Instituto Superior Tecnológico de Turismo y Patrimonio 'Yavirac'",
+            years: "2021 - 2024"
+        },
+        {
+            degree: "Comercio y Administración de Información Turística y Hotelería",
+            institution: "Colegio Fiscal Patrimonio de la Humanidad",
+            years: "2005 - 2012"
         }
     ],
+    
     skills: [
         "JavaScript", "React", "Node.js", "CSS", "HTML"
     ],
     contact: {
         email: "juan.perez@example.com",
-        phone: "+593 123 456 789",
-        address: "Av. Siempre Viva 123, Quito, Ecuador"
+        phone: "+593 993 731 604",
+        address: "Labrador, Quito, Ecuador"
     },
     imageUrl: "https://firebasestorage.googleapis.com/v0/b/psyched-service-419202.appspot.com/o/hojaVida%2F98623519.jfif?alt=media&token=bfa82a8f-bae3-402a-8afa-f1725df95bfc"
 };

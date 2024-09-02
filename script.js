@@ -76,8 +76,8 @@ function generateCV(data) {
     contactSection.classList.add('section');
     contactSection.innerHTML = `
         <h2 class="section-title">Contacto</h2>
-        <p>Email: ${data.contact.email}</p>
-        <p>Teléfono: ${data.contact.phone}</p>
+        <!-- <p>Email: ${data.contact.email}</p> -->
+        <p>Teléfono: <a href='https://wa.me/993731604'>${data.contact.phone}</a></p>
         <p>Dirección: ${data.contact.address}</p>
     `;
     container.appendChild(contactSection);
